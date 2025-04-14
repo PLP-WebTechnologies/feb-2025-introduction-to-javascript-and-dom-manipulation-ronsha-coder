@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #e0f7fa; /* light blue background */
+    }
+  
+    button {
+      margin: 10px 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+  
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to My Page</h1>
+  </header>
+
+  <section>
+    <p id="paragraph">Click the button below to change this text and style!</p>
+    <button onclick="changeText()">Change Text & Style</button>
+  </section>
+
+  <section>
+    <button onclick="toggleElement()">Add/Remove Element</button>
+    <div id="container"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Simple Site</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
